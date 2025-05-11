@@ -1,0 +1,53 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FAF0E6n;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+select,
+button {
+  margin: 10px auto;
+  padding: 10px;
+  margin-top: 10px;
+  display: block;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #3a73b6;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #C0C0C0;
+   color: black;
+}
+
+.tarefa-item {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
